@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Ultra');
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One');
+body{
+overflow-x:none;
+}
+p{
+  color:white;
+}
+
+a,span{
+  font-weight: bold;
+  color:#f00;
+}
+
+#title{
+  font-size:40px;
+  font-family: 'Ultra', serif;
+  font-weight:bold;
+  text-decoration:underline;
+}
+#loc{
+  font-family:'Sigmar One', cursive;
+}
+#info{
+  font-size:25px;
+}
+img{
+  width:10%;
+}
+#tempa{
+  font-family: 'Ultra', serif;
+  font-size:40px;
+}
+
+#data{
+  margin:10% 30% 5% 30%;
+  background-color:#333333;
+  color:#cccccc;
+  border-radius:2%;
+  cursor:move;
+}
