@@ -1,7 +1,7 @@
-$("body").css("background","#fff url("+bgimgs[index]+") no-repeat fixed center center / cover");
-$(function(){
-  var bgimgs=["http://images.indianexpress.com/2015/05/reu-rain-759.jpg","http://www.wallpaperscharlie.com/wp-content/uploads/2016/07/Snowy-Weather-HD-Images-6.jpg","https://s-media-cache-ak0.pinimg.com/originals/32/6f/3e/326f3ed95633dc5ebf82612829ec395d.jpg","http://img13.deviantart.net/9467/i/2012/262/7/3/resource__cloudy_landscape_by_elsoria-d5fb314.jpg","http://absfreepic.com/absolutely_free_photos/small_photos/windy-weather-landscape-4576x2576_74868.jpg"];
+var bgimgs=["http://images.indianexpress.com/2015/05/reu-rain-759.jpg","http://www.wallpaperscharlie.com/wp-content/uploads/2016/07/Snowy-Weather-HD-Images-6.jpg","https://s-media-cache-ak0.pinimg.com/originals/32/6f/3e/326f3ed95633dc5ebf82612829ec395d.jpg","http://img13.deviantart.net/9467/i/2012/262/7/3/resource__cloudy_landscape_by_elsoria-d5fb314.jpg","http://absfreepic.com/absolutely_free_photos/small_photos/windy-weather-landscape-4576x2576_74868.jpg"];
   var index=Math.floor(Math.random()*bgimgs.length);
+  $("body").css("background","#fff url("+bgimgs[index]+") no-repeat fixed center center / cover");
+$(function(){
    if (navigator.geolocation) {
   navigator.geolocation.getCurrentPosition(function(position) {
 var lat=position.coords.latitude;  
